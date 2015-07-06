@@ -10,7 +10,7 @@ Your function should return length = 2, with the first two elements of nums bein
 
 Hide Tags
  */
-package P26_RemoveDuplicatesFromSortedArray;
+package P026_RemoveDuplicatesFromSortedArray;
 
 public class Solution {
     public static int removeDuplicates(int[] nums) {
