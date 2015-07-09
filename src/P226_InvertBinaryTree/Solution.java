@@ -20,15 +20,15 @@ Google: 90% of our engineers use the software you wrote (Homebrew), but you canâ
 */
 package P226_InvertBinaryTree;
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
+
+//Definition for a binary tree node.
+class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+    TreeNode(int x) { val = x; }
+}
+ 
 public class Solution {
     public TreeNode invertTree(TreeNode root) {
         if(root == null) return root;
