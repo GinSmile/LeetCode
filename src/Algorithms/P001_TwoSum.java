@@ -1,3 +1,4 @@
+package Algorithms;
 /*
 Given an array of integers, find two numbers such that they add up to a specific target number.
 
@@ -9,12 +10,10 @@ Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 */
 
-package P001_TwoSum;
-
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class P001_TwoSum {
     public  int[] twoSum(int[] nums, int target) {
        int[] res = new int[2];
        Map<Integer, Integer> map = new HashMap<Integer, Integer>();

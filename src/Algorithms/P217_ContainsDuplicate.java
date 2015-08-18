@@ -3,11 +3,11 @@ Given an array of integers, find if the array contains any duplicates.
 Your function should return true if any value appears at least twice in the array, 
 and it should return false if every element is distinct.
 */
-package P217_ContainsDuplicate;
+package Algorithms;
 
 import java.util.Hashtable;
 
-public class Solution {
+public class P217_ContainsDuplicate {
     public static boolean containsDuplicate(int[] nums) {
         Hashtable<Integer,Integer> htable = new Hashtable<Integer,Integer>();
         for(int i=0; i<nums.length; i++){

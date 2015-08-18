@@ -13,12 +13,12 @@ Special thanks to @ts for adding this problem and creating all test cases.
 这道题的思路就是重写compare函数，规定两个字符串之间的大小。
  * */
 
-package P179_LargestNumber;
+package Algorithms;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Solution {
+public class P179_LargestNumber {
 	public static void main(String...args){
 		int[] nums = {0,0};
 		String resString = largestNumber(nums);

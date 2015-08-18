@@ -10,9 +10,9 @@ Your function should return length = 2, with the first two elements of nums bein
 
 Hide Tags
  */
-package P026_RemoveDuplicatesFromSortedArray;
+package Algorithms;
 
-public class Solution {
+public class P026_RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {
 		if(nums.length == 0) return 0;
         int front = nums[0];

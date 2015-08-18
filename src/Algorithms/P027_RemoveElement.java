@@ -3,9 +3,9 @@
  * The order of elements can be changed. It doesn't matter what you leave beyond the new length.
  */
 
-package P027_RemoveElement;
+package Algorithms;
 
-public class Solution {
+public class P027_RemoveElement {
 	    public int removeElement(int[] nums, int val) {
 			 //先排序，再找到第一个需要除掉的，以及值为val的总长度
 			 sort(nums);

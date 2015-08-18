@@ -18,7 +18,7 @@ This problem was inspired by this original tweet by Max Howell:
 Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.
  
 */
-package P226_InvertBinaryTree;
+package Algorithms;
 
 
 //Definition for a binary tree node.
@@ -29,7 +29,7 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
  
-public class Solution {
+public class P226_InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if(root == null) return root;
         

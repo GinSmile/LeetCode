@@ -5,9 +5,9 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
  * 
  * */
 
-package P136_SimgleNumber;
+package Algorithms;
 
-public class Solution {
+public class P136_SimgleNumber {
     public int singleNumber(int[] nums) {
         //use XOR
         int ans = 0;
