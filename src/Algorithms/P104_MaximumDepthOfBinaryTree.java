@@ -5,17 +5,17 @@ The maximum depth is the number of nodes along the longest path from the root no
  * */
 package Algorithms;
 
-
-/**
+/*
+ *
  * Definition for a binary tree node.
- */
+ *
 class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
       TreeNode(int x) { val = x; }
 }
-
+*/
 public class P104_MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;

@@ -5,14 +5,14 @@ Two binary trees are considered equal if they are structurally identical and the
 
 package Algorithms;
 
-
+/*
   //Definition for a binary tree node.
 class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
       TreeNode(int x) { val = x; }
-}
+}*/
  
 public class P100_SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
