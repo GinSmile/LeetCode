@@ -12,7 +12,7 @@
 
 package Algorithms;
 
-public class P83_RemoveDuplicatesFromSortedList {
+public class P083_RemoveDuplicatesFromSortedList {
 /**
  * Definition for singly-linked list.
  * public class ListNode {

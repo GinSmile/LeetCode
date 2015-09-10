@@ -36,7 +36,7 @@ import java.util.Stack;
  * }
  */
 
-public class P94_BinaryTreeInorderTraversal {
+public class P094_BinaryTreeInorderTraversal {
 	
 	//递归
 	public List<Integer> inorderTraversal(TreeNode root) {

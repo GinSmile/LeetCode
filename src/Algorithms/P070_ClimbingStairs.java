@@ -14,7 +14,7 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 package Algorithms;
 
-public class P70_ClimbingStairs {
+public class P070_ClimbingStairs {
 	    public int climbStairs(int n) {
 	        if(n < 3) return n;
 	        int[] myArr = new int[n+1];

@@ -1,7 +1,3 @@
-package Algorithms;
-
-
-
 /*
  * Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
 
@@ -21,6 +17,8 @@ For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another exa
  * 
  * */
 
+package Algorithms;
+
 
 	/**
 	 * Definition for a binary tree node.
@@ -38,9 +36,6 @@ For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another exa
 	        else if(root.val > p.val && root.val > q.val)
 	            return lowestCommonAncestor(root.left, p, q);
 	        else 
-	            return root;
-	        
-	        
-	        
+	            return root;	        
 	    }
 	}
